@@ -140,7 +140,7 @@ export default function App() {
           </p>
           <div className="hero-actions">
             <a href="https://github.com/MichaelWave369/particleforge369" target="_blank" rel="noreferrer">Open repo</a>
-            <a href="./docs/claim-boundaries.md">Read boundaries</a>
+            <a href="https://github.com/MichaelWave369/particleforge369/blob/main/docs/claim-boundaries.md" target="_blank" rel="noreferrer">Read boundaries</a>
           </div>
         </div>
         <ReceiptPanel telemetry={telemetry} />
