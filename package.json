@@ -6,7 +6,7 @@
   "private": false,
   "license": "MIT",
   "scripts": {
-    "prepare:html": "node tools/write-html.mjs && node -e \"require('node:fs').writeFileSync('src/'+['styles','css'].join('.'),'')\"",
+    "prepare:html": "node tools/write-html.mjs && node tools/write-theme.mjs",
     "dev": "npm run prepare:html && vite --host 0.0.0.0",
     "build": "npm run prepare:html && vite build",
     "preview": "vite preview --host 0.0.0.0"

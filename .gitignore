@@ -1,0 +1,5 @@
+node_modules
+dist
+index.html
+src/styles.css
+.DS_Store
